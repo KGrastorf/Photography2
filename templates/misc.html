@@ -1,0 +1,10 @@
+<div class="banner4">
+    <h1 class="blk4">Miscellaneous</h1>
+</div>
+<div class="row">
+    <div ng-repeat="pics in misc1" class="pics">
+        <!-- <div class="clearfix" ng-if="$index % 3 == 0"></div> -->
+        <!-- <div class="col s4"> -->
+        <a href="{{pics.img}}" data-lightbox="misc1" data-title="{{pics.data}}"><img ng-src="{{pics.img}}" width="400" /></a>
+    </div>
+</div>

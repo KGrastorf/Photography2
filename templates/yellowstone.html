@@ -1,0 +1,10 @@
+<div class="banner2">
+    <h1 class="blk2">Yellowstone Photography</h1>
+</div>
+<div class="row">
+    <div ng-repeat="pics in ynp1" class="pics">
+        <!-- <div class="clearfix" ng-if="$index % 3 == 0"></div> -->
+        <!-- <div class="col s4"> -->
+        <a href="{{pics.img}}" data-lightbox="ynp1" data-title="{{pics.data}}"><img ng-src="{{pics.img}}" width="400" /></a>
+    </div>
+</div>
