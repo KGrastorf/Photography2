@@ -22,5 +22,3 @@ angular.module("photoApp", ['ui.router'])
         $urlRouterProvider.otherwise('/templates/home.html');
 
     });
-
-  

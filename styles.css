@@ -1,9 +1,11 @@
 body {
     /*font-family: 'Kaushan Script', cursive;*/
     font-family: 'Comfortaa', cursive;
-    text-shadow: 1px 1px black;
+    color: orange;
+    text-shadow: 1px 1px white;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
+    background-color: black;
 }
 
 .header {
@@ -21,7 +23,7 @@ body {
 a {
     text-decoration: none;
     color: white;
-    border-right:solid 3px #fff;
+
     padding-right: 8px;
 }
 
@@ -34,15 +36,40 @@ a {
 }
 
 
-.logo {
+.lt {
     display:block;
     float:right;
     font-size: 40px;
     padding-right: 15px;
-    border-right: none;
 }
 
-.row {
+.big {
+  display:block;
+  float:left;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.st {
+    display:block;
+    float:center;
+
+}
+
+#small {
+  display:none;
+
+}
+
+.SS {
+  display: none;
+}
+
+.tiny {
+  display: none;
+}
+
+.row3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -50,20 +77,20 @@ a {
     align-content: space-between;
 }
 
-div.banner.ng-scope {
-    height: 50vh;
-    width: auto;
-    background-image: url("images/eaglebanner4.jpg");
-    background-size: contain;
-    image-resolution: snap;
-    background-repeat: no-repeat;
-    font-size: 30px;
+.norow {
+    display: inline;
 }
+
+.vid {
+    margin-top: 50px;
+    margin-left: 280px;
+}
+
 
 div.banner2.ng-scope {
     height: 50vh;
     width: auto;
-    background-image: url("images/bisonbanner7.jpg");
+    background-image: url("images/bb2.jpg");
     background-size: contain;
     image-resolution: snap;
     background-repeat: no-repeat;
@@ -73,7 +100,7 @@ div.banner2.ng-scope {
 div.banner3.ng-scope {
     height: 50vh;
     width: auto;
-    background-image: url("images/headshotbanner.jpg");
+    background-image: url("images/headshotbanner-black.jpg");
     background-size: contain;
     image-resolution: snap;
     background-repeat: no-repeat;
@@ -83,7 +110,7 @@ div.banner3.ng-scope {
 div.banner4.ng-scope {
     height: 50vh;
     width: auto;
-    background-image: url("images/buddhabanner.jpg");
+    background-image: url("images/buddhabanner-black.jpg");
     background-size: contain;
     image-resolution: snap;
     background-repeat: no-repeat;
@@ -118,9 +145,9 @@ div.banner4.ng-scope {
 	padding: 5px 20px 13px 20px;
 	border-radius: 10px;
 	background: #fff;
-	background: -moz-linear-gradient(#fff, #999);
-	background: -webkit-linear-gradient(#fff, #999);
-	background: -o-linear-gradient(#fff, #999);
+	background: -moz-linear-gradient(#fff, #2f4f4f);
+	background: -webkit-linear-gradient(#fff, #2f4f4f);
+	background: -o-linear-gradient(#fff, #2f4f4f);
 }
 
 .close {
@@ -193,18 +220,47 @@ div.banner4.ng-scope {
     }
 }
 
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 1150px){
     .blk4, .blk3, .blk2, .blk {
         width: 100vw;
         right: 0;
         text-align: center;
     }
     .st {
-        display: block;
+        display: inline-block;
     }
     .lt {
         display: none;
     }
+    .big {
+      display: none;
+    }
+    #small {
+      display: inline-block;
+      color: white;
+      font-size: 15px;
+    }
+    .FS {
+      display: none;
+    }
+    .SS {
+      display: flex;
+      justify-content: flex-start;
+      margin: 0 0 0 -250px;
+    }
+    .blk2, .blk3, .blk4 {
+      display: none;
+    }
+
+    .tiny {
+      display: block;
+      text-align: center;
+      font-size: 25px;
+      padding-top: 150px;
+    }
+
+    
+
     @-webkit-keyframes mymove {
         from {
             right: 0;

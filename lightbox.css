@@ -100,6 +100,7 @@ body.lb-disable-scrolling {
   height: 100%;
   cursor: pointer;
   display: block;
+  padding: 0 0 0 0;
 }
 
 .lb-nav a.lb-prev {
@@ -123,7 +124,9 @@ body.lb-disable-scrolling {
 .lb-nav a.lb-next {
   width: 64%;
   right: 0;
+  top: 0;
   float: right;
+  padding: 0 0 0 0;
   background: url(../images/next.png) right 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;

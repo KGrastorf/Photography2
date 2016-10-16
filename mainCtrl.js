@@ -19,6 +19,24 @@ angular.module("photoApp")
     img: "images/bison2.jpg",
     data: "A big Bull Bison near Roosevelt Lodge."
   },{
+    img: "images/Everts 1.jpg",
+    data: "Mount Everts."
+  },{
+    img: "images/Elk 16.jpg",
+    data: "2 Elk near Mammoth Hot Springs."
+  },{
+    img: "images/Hazy Mammoth Morning.jpg",
+    data: "Park Service Headquarters, early morning."
+  },{
+    img: "images/Raven 1.jpg",
+    data: "Raven by the Gardner River."
+  },{
+    img: "images/Whistlepig with Moustache(P).jpg",
+    data: "A Whistlepig with something in it's mouth."
+  },{
+    img: "images/Snowy Bison 2.jpg",
+    data: "A lone Bison in winter."
+  },{
     img: "images/Flags.jpg",
     data: "View from Widows Walk on top of the Old Faithful Inn."
   },{
@@ -61,6 +79,15 @@ angular.module("photoApp")
   },{
     img: "images/Buddha Wallpaper.jpg",
     data: "Buddha statue."
+  },{
+    img: "images/Wagon.jpg",
+    data: "Wagon near Little Bighorn."
+  },{
+    img: "images/Skulls.jpg",
+    data: "Pile of skulls near Little Bighorn."
+  },{
+    img: "images/Woods.jpg",
+    data: "Woods in Grand Ledge, Michigan."
   }];
 
 });

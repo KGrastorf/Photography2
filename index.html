@@ -8,6 +8,7 @@
     <link href="lightbox.css" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <title>Kevin Grastorf Photography</title>
     <link rel="shortcut icon" href="https://camo.githubusercontent.com/d4529cd6841280907c1dab4819ae53c3b6dd2de5/687474703a2f2f63646e2e73686f706966792e636f6d2f732f66696c65732f312f303038302f383337322f70726f64756374732f746174746c795f6a61736f6e5f73616e74615f6d617269615f61706572747572655f7765625f64657369676e5f30315f6c617267652e6a7067" type="image/png">
 </head>
@@ -15,26 +16,21 @@
 <body ng-controller="mainCtrl">
 <div class="header">
     <header>
-        <a class="link" id="lm" ui-sref="home">Home</a>
-        <a class="link" ui-sref="yellowstone">Yellowstone</a>
-        <a class="link" ui-sref="headshots">Headshots</a>
-        <a class="link" ui-sref="misc">Miscellaneous</a>
-        <a href="#" class="logo">Kevin Grastorf Photography</a>
+        <a class="link" id="lm" ui-sref="home"><span class="big">Home</span><span class="glyphicons glyphicons-home" id="small"><i class="fa fa-home" aria-hidden="true"></i></span></a>
+        <a class="link" ui-sref="yellowstone"><span class="big">Yellowstone</span><span class="glyphicons glyphicons-leaf" id="small"><i class="fa fa-leaf" aria-hidden="true"></i></span></a>
+        <a class="link" ui-sref="headshots"><span class="big">Headshots</span><span class="glyphicons glyphicons-girl" id="small"><i class="fa fa-user" aria-hidden="true"></i></span></a>
+        <a class="link" ui-sref="misc"><span class="big">Miscellaneous</span><span class="glyphicons glyphicons-camera" id="small"><i class="fa fa-camera" aria-hidden="true"></i></span></a>
+        <a href="#"><span class="lt">Kevin Grastorf Photography</span><span class="st">Kevin Grastorf Photo</span></a>
     </header>
 </div>
-
-
-
     <ui-view></ui-view>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
     <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="lightbox.js"></script>
+    <script src="grunt.js"></script>
     <script src="app.js"></script>
     <script src="mainCtrl.js"></script>
     <script src="mainServ.js"></script>
-    <script src="grunt.js"></script>
-    <!-- <script src="domDir.js"></script> -->
 </body>
 
 </html>

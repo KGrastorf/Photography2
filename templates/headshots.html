@@ -1,10 +1,8 @@
 <div class="banner3">
-    <h1 class="blk3">Headshots</h1>
+    <h1><span class="blk3">Headshots</span><span class="tiny">Headshots</span></h1>
 </div>
-<div class="row">
+<div class="row3">
     <div ng-repeat="pics in head1" class="pics">
-        <!-- <div class="clearfix" ng-if="$index % 3 == 0"></div> -->
-        <!-- <div class="col s4"> -->
-        <a href="{{pics.img}}" data-lightbox="head1" data-title="{{pics.data}}"><img ng-src="{{pics.img}}" width="600" /></a>
+        <a class="norow" href="{{pics.img}}" data-lightbox="head1" data-title="{{pics.data}}"><img ng-src="{{pics.img}}" width="600" /></a>
     </div>
 </div>
